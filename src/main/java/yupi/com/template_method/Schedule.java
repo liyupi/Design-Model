@@ -15,7 +15,7 @@ public abstract class Schedule
     // 敲代码
     abstract void writeCode();
     // 一天的作息，方法的流程模板
-    void live(){
+    final void live(){
         System.out.println("5:00 到了");
         getUp();
         System.out.println("6:00 到了");
