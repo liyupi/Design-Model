@@ -5,7 +5,7 @@ import yupi.com.abstract_factory.common.Master;
 import yupi.com.abstract_factory.common.Screen;
 
 /**
- * 功能描述：低配电脑（具体产品）
+ * 功能描述：低配计算机（具体产品）
  *
  * @author Yupi Li
  * @date 2018/08/23 15:48
@@ -20,7 +20,7 @@ public class LowComputer extends Computer
     @Override
     public void printInfo()
     {
-        System.out.println("低配电脑：");
+        System.out.println("低配计算机：");
         master.start();
         screen.show();
         System.out.println();
